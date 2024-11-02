@@ -1,0 +1,142 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   font-family: "Varela Round", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Varela+Round&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    background-color:rgba(33, 160, 232, 1);
+}
+
+.profile-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 24px;
+    background-color:rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.corners{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:200px;
+    color:rgba(255, 255, 255, 1);
+}
+
+.pro{
+    background-color:rgba(207, 127, 38, 1);
+    padding:0 4px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.corners i{
+    color:rgba(41, 171, 226, 1);
+    cursor:pointer;
+}
+
+.image{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    background-color:rgba(255, 255, 255, 1);
+    margin-bottom: 10px;
+}
+
+.profile-img{
+    height:100%;
+    width:100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-card .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+}
+
+.text-data .name{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.text-data .job{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text-data .mailid{
+    font-size: 15px;
+    font-weight: 500;
+    color:rgba(137, 192, 229, 1);
+    margin-bottom: 10px;
+}
+
+.profile-card .media-buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.link{
+    font-size: 18px;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+}
+
+.buttons .button{
+    color:rgba(255, 255, 255, 1);
+    font-size: 14px;
+    border: none;
+    border-radius: 24px;
+    margin: 0px 10px;
+    padding: 3px 18px;
+    background-color:rgba(1, 86, 142, 1);
+}
+
+.buttons{
+    margin-top: 15px;
+}
+
+.streak{
+    background-color:rgba(1, 86, 142, 1);
+}
+
+.data:last-child { 
+    border-right: none; 
+}
+
+.profile-card .analytics{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.analytics .edit-option{
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+    margin-bottom: 10px;
+    color:rgba(137, 192, 229, 1);
+}
+
+hr{
+    width: 100%;
+    margin-top: 30px;
+    color:  rgba(241, 241, 241, 0.475);
+    height: 0.3px;
+}
